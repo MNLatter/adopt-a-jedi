@@ -1,9 +1,14 @@
-let userName = prompt('Please Enter your Name!');
+function  askUserQuestion() {
+    let userNameInside = prompt('Please Enter your Name!');
 
-console.log(userName)
-            'Welcome ' + 'Michael'
-            if(userName == 'Michael'){
-                document.write('Welcome Jedi Knight ' + userName)
-            } else {
-                document.write('Welcome ' + userName)
-            }
+'Welcome ' + 'Michael'
+if(userNameInside == 'Michael'){
+    document.write('Welcome Jedi Knight ' + userNameInside)
+} else {
+    document.write('Welcome ' + userNameInside)
+}
+return userNameInside;
+}
+
+let userNameInside = askUserQuestion();
+console.log(userNameInside);
