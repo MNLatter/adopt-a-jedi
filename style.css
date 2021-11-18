@@ -1,0 +1,62 @@
+body {
+background-color: rgb(0, 0, 0);
+}
+
+header {
+
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+h1 {
+    color: rgb(217, 255, 0);
+    border: solid; color: rgb(10, 10, 10) 1px;
+
+}
+
+h2 {
+    color: rgb(68, 123, 226);
+ }
+
+ h3 {
+     color: rgb(68, 123, 226);
+ }
+
+li {
+     color: rgb(217, 255, 0);
+    padding: 10px;
+    margin: 1em;
+    display: block;
+    background-color: rgb(10, 10, 10);
+    }
+
+section {
+background-color: rgb(10, 10, 10);
+text-align: center;
+color: rgb(217, 255, 0);
+border: rgb(217, 255, 0);
+}
+
+img {
+    margin: 10px;
+}
+
+#section2 {
+    background-color: rgb(10, 10, 10);
+
+}
+.things {
+    border: solid rgb(18217, 255, 0) 2px;
+    margin: 1px;
+}
+
+footer {
+    color: rgb(255, 254, 253);
+}
+
+footer li {
+    text-align: right;
+    margin: 1px;
+    padding: 1px;
+}
+
