@@ -6,12 +6,18 @@ header {
 
     background-color: rgb(10, 10, 10);
     text-align: center;
+    border: solid; color: rgb(217, 255, 0);
 }
 
 h1 {
-    color: rgb(217, 255, 0);
-    border: solid; color: rgb(10, 10, 10) 1px;
+    color: rgb(68, 123, 226);
+    
 
+}
+
+nav {
+
+    border: solid; color: yellow;
 }
 
 h2 {
@@ -22,8 +28,14 @@ h2 {
      color: rgb(68, 123, 226);
  }
 
-li {
-     color: rgb(217, 255, 0);
+
+ ul {
+     text-align: left;
+    }
+
+     
+    li {
+     color: rgb(68, 123, 226);
     padding: 10px;
     margin: 1em;
     display: block;
@@ -33,12 +45,14 @@ li {
 section {
 background-color: rgb(10, 10, 10);
 text-align: center;
-color: rgb(217, 255, 0);
+color: rgb(68, 123, 226);
 border: rgb(217, 255, 0);
 }
 
 img {
-    margin: 10px;
+    
+    height: 450;
+    width: 450;
 }
 
 #section2 {
